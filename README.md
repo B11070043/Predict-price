@@ -1,4 +1,10 @@
 # Predict Gold Price with Linear Regression
+- This model uses a dataset of gold prices from the Comex market, denominated in USD / oz.
+
+>### Input for prediction :
+>- Use the imported data by using a set of data that predicts gold prices.
+>- Use
+
 ### Import the model file in the folder called "Model".
 ```
 load_model = tf.keras.models.load_model("./Model/model.h5")
