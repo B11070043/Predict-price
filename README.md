@@ -1,4 +1,4 @@
-# Predict Gold Price with Linear Regression
+# Predict Gold Price with Linear Regression and Long short-term memory(LSTM)
 - This model uses a dataset of gold prices from the Comex market, denominated in USD / oz.
 
 >### Input for prediction :
