@@ -29,31 +29,8 @@ Test_data  = scalar_price[ data_size - windows_size :]
 ------------------------------------------------------------------
 
 
-### Predict data
-> Use data to make predictions to find the trend of gold prices.
-```
-_________________________________________________________________
- Layer (type)                Output Shape              Param #   
-=================================================================
- lstm (LSTM)                 (None, 60, 40)            6720      
-                                                                 
- lstm_1 (LSTM)               (None, 60, 512)           1132544   
-                                                                 
- lstm_2 (LSTM)               (None, 32)                69760     
-                                                                 
- dense (Dense)               (None, 16)                528       
-                                                                 
- dense_1 (Dense)             (None, 1)                 17        
-                                                                 
-=================================================================
-Total params: 1209569 (4.61 MB)
-Trainable params: 1209569 (4.61 MB)
-Non-trainable params: 0 (0.00 Byte)
-_________________________________________________________________
-
-```
 ### The graph after the model is trained, only pulling the opening price of the gold market.
-> The graph has been enlarged to make the lines more visible, but the data only goes up to September 21, 2023.
+> The graph has been enlarged to make the lines more visible, but the data only goes up to October 12, 2023.
 > 
 #### LSTM Model
 
