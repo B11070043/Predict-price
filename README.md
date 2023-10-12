@@ -14,7 +14,6 @@ data_size  = int(dataset.shape[0] * 0.90)
 Train_data = scalar_price[:data_size - windows_size]
 Test_data  = scalar_price[ data_size - windows_size :]
 
-```
 
 #### DataFrame in df
 
@@ -28,7 +27,6 @@ Test_data  = scalar_price[ data_size - windows_size :]
 |...|	...|	...|	...|	...|
 ------------------------------------------------------------------
 
-```
 
 ### The graph after the model is trained, only pulling the opening price of the gold market.
 > The graph has been enlarged to make the lines more visible, but the data only goes up to October 12, 2023.
