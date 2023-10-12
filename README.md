@@ -37,11 +37,9 @@ predictions = load_model.predict(df2)
 ```
 ### The graph after the model is trained, only pulling the opening price of the gold market.
 > The graph has been enlarged to make the lines more visible, but the data only goes up to September 21, 2023.
-
-> Linear model
-![](/Graph/Graph_open_zoom(Linear).png)
+ 
 > LSTM model
-![](/Graph/Graph_open_zoom(LSTM).png)
+![](Graph/Graph_open(LSTM).png)
 
 
 
