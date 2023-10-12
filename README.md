@@ -27,7 +27,7 @@ Test_data  = scalar_price[ data_size - windows_size :]
 |2017-10-10|	1282.599976|	1293.000000|	1281.699951	|1290.599976|
 |...|	...|	...|	...|	...|
 ------------------------------------------------------------------
-
+```
 
 ### The graph after the model is trained, only pulling the opening price of the gold market.
 > The graph has been enlarged to make the lines more visible, but the data only goes up to October 12, 2023.
