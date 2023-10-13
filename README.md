@@ -1,6 +1,6 @@
 # Create by
-> 6614400266 Pakawat Tanyaphirom 
-> 6614450034 Nithat Boonyan
+>- 6614400266 Pakawat Tanyaphirom 
+>- 6614450034 Nithat Boonyan
 
 # Predict Gold Price with Long short-term memory(LSTM)
 - This model uses a dataset of gold prices from the Comex market, denominated in USD / oz.
