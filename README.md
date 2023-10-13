@@ -39,6 +39,11 @@ Test_data  = scalar_price[ data_size - windows_size :]
 
 ![](Graph/Graph_open(LSTM).png)
 
+#### Zoom graph
+
+![](Graph/Graph_open_zoom(LSTM).png)
+
+
 
 
 
